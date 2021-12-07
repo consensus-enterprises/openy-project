@@ -4,7 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
-        "ymcatwincities/openy": "^9.2",
+        "ymcatwincities/openy": "dev-aegir3",
         "cweagans/composer-patches": "~1.0"
     },
     "require-dev": {
@@ -146,6 +146,10 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/consensus-enterprises/openy"
         }
     ],
     "scripts": {
